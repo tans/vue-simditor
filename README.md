@@ -23,4 +23,4 @@ v-model 为绑定值
 v-bind:toolbar 为自定义的simditor参数， 如需使用其他参数，请自行修改。
 
 
-### [示例网站](https://tans.github.io/vue-simditor/)
+### [示例网站](https://tans.github.io/vue-simditor/demo.html)
