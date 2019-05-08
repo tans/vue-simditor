@@ -19,7 +19,6 @@
             <h1>示例</h1>
             <div>
                 <simditor id="editor" v-model="message" v-bind:toolbar="['link', '|', 'image']"></simditor>
-
             </div>
         </div>
     </body>
@@ -28,15 +27,8 @@
         var app = new Vue({
             el: '#app',
             data: {
-                message: 'Hello Vue!'
+                message: 'Hello Vue and Simditor!'
             },
-            // mounted:function(){
-            //     var editor = new Simditor({
-            //         textarea: $('#editor')
-            //         //optional options
-            //     })
-            // }
-
         })
     </script>
 </html>
