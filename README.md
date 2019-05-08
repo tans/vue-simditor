@@ -10,6 +10,7 @@
 ```
 
 2. 使用自定义组件
+
 ```
 <simditor id="editor" v-model="message" v-bind:toolbar="['link', '|', 'image']"></simditor>
 ```
